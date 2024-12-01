@@ -66,7 +66,8 @@ celerybeat-schedule
 
 # Пароли и ключи (например, в файлах env)
 .env
-.env.*
+.env
 
 # Docker
 *.pid
+db_data
