@@ -1,0 +1,72 @@
+# Общие исключения для Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Конфигурационные файлы IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Файлы тестов/отчетов
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.tox/
+.pytest_cache/
+.cache/
+
+# Библиотеки и зависимости
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+*.manifest
+*.spec
+
+# pipenv, poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre (статический анализатор Python)
+.pyre/
+
+# Celery
+celerybeat-schedule
+
+# Пароли и ключи (например, в файлах env)
+.env
+.env.*
+
+# Docker
+*.pid
